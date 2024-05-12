@@ -1,0 +1,23 @@
+:root {
+    --white: #B4B4B8;
+    --darkblue: #121481;
+  }
+
+.nav-color{
+    background-color: var(--white);
+}
+.font-brand-color{
+    color: var(--darkblue);
+}
+
+.span {
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+.bg-blue{
+    background-color: var(--darkblue);
+}
+
+button {
+    border-radius: 90px;
+}
