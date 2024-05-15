@@ -1,6 +1,7 @@
 :root {
     --white: #ffffef;
     --darkblue: #121481;
+    --smoothblue:rgba(202, 244, 255,0.5);
   }
 
 .nav-color{
@@ -8,6 +9,9 @@
 }
 .font-white{
     color: var(--white);
+}
+.font-blue{
+    color: var(--darkblue)
 }
 
 .logo-img {
@@ -26,4 +30,7 @@ a{
     text-decoration-style: none;
     text-decoration: none !important;
     list-style: none;
+}
+.bg-smootblue{
+    background-color: var(--smoothblue);
 }
