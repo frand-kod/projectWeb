@@ -1,23 +1,29 @@
 :root {
-    --white: #B4B4B8;
+    --white: #ffffef;
     --darkblue: #121481;
   }
 
 .nav-color{
-    background-color: var(--white);
+    background-color: var(--darkblue);
 }
-.font-brand-color{
-    color: var(--darkblue);
+.font-white{
+    color: var(--white);
 }
 
-.span {
+.logo-img {
     border: 1px solid #000;
     border-radius: 50%;
+    background-color: white;
+    padding: .3rem;
 }
 .bg-blue{
     background-color: var(--darkblue);
 }
-
 button {
     border-radius: 90px;
+}
+a{
+    text-decoration-style: none;
+    text-decoration: none !important;
+    list-style: none;
 }
